@@ -1,0 +1,22 @@
+
+.Homepage-categories
+{
+    color: rgb(241, 228, 180);
+}
+.Homepage-categories-input select
+{
+    background-image: url('../Images/selectorbackground.png');
+    background-size: 30vw 5vh;
+    background-repeat: no-repeat;
+    width: 30vw;
+    height: 5vh;
+    background-color: transparent;
+    padding-left: 0.8rem;
+    border-color: transparent;
+    border-radius: 5%;
+}
+.Homepage-categories-input select option
+{
+    background-color: rgb(241, 228, 180);
+    color: black;
+}

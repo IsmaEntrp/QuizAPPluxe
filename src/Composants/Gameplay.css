@@ -1,0 +1,135 @@
+.Gameplay-container
+{
+    background-image: url('../Images/mandalabackgroundquestion.png');
+    background-size: cover;
+    background-repeat: repeat;
+    width: 100vw;
+    height: 100vh;
+    color:white;
+    position: relative;
+}
+.Gameplay-question
+{
+    padding: 1rem;
+    background-color: rgb(241, 228, 180);
+    color: black;
+    width: 40rem;
+    border-radius: 1rem;
+    position:absolute;
+    top:30vh;
+    left: 10vw;
+    box-shadow: 0px 0px 5px rgb(241, 228, 180);
+    border: 2px solid black;
+}
+.Gameplay-Answer
+{
+    padding: 1rem;
+    background-color: rgb(241, 228, 180);
+    color: black;
+    width: 10rem;
+    border-radius: 1rem;
+    margin-right: 7rem;
+    margin-bottom: 1rem;
+    box-shadow: 0px 0px 5px rgb(241, 228, 180);
+    border: 2px solid black;
+}
+.Gameplay-Answer:hover
+{
+    background-color: black;
+    color: rgb(241, 228, 180);
+    cursor: pointer;
+}
+.Gameplay-answer-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    position:absolute;
+    top:45vh;
+    left: 15vw;
+}
+
+.Gameplay-button-Next-question
+{
+    
+    background-color: rgb(241, 228, 180);
+    color: black;
+    border-radius: 1rem;
+    padding: 1rem;
+    font-size: 1rem;
+    text-align: center;
+    width: 15rem;   
+    position: absolute;
+    top:75vh;
+    left: 25vw;
+    box-shadow: 0px 0px 5px rgb(241, 228, 180);
+    border: 2px solid black;
+}
+.Gameplay-button-Next-question:hover
+{
+    
+
+    background-color: rgb(47, 130, 255);
+    color: black;
+    cursor: pointer;
+}
+.Gameplay-answer-clicked
+{
+    background-color: rgb(47, 130, 255);
+    color: white;
+    padding: 1rem;
+    width: 10rem;
+    border-radius: 1rem;
+    margin-right: 7rem;
+    margin-bottom: 1rem;
+}
+.Gameplay-answer-clicked:hover
+{
+    cursor: pointer;
+}
+.Gameplay-correct-answers
+{    
+    display: flex;
+    flex-direction: column;
+    position:absolute;
+    top:40vh;
+    left: 10vw;
+    overflow: auto;
+    height: 50vh;
+    margin: 1rem;
+
+}
+.Gameplay-correct-answer
+{
+    
+    background-color: rgb(241, 228, 180);
+    color: black;
+    
+    padding: 1rem;
+    width: 40rem;
+    border-radius: 1rem;
+    box-shadow: 0px 0px 5px rgb(241, 228, 180);
+    border: 2px solid black;
+}
+.Gameplay-button-try-new-quiz
+{
+    background-color: rgb(241, 228, 180);
+    color: black;
+    border-radius: 1rem;
+    padding: 1rem;
+    font-size: 1rem;
+    text-align: center;
+    width: 15rem;   
+    position: absolute;
+    top:50vh;
+    left: 65vw;
+    box-shadow: 0px 0px 5px rgb(241, 228, 180);
+    border: 2px solid black;
+
+}
+.Gameplay-button-try-new-quiz:hover
+{
+    
+
+    background-color: rgb(47, 130, 255);
+    color: black;
+    cursor: pointer;
+}

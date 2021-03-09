@@ -3,10 +3,13 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import {BasedonneeProvider} from './ContextAPP/Contextapp'
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <BasedonneeProvider>
+      <App />
+    </BasedonneeProvider>
   </React.StrictMode>,
   document.getElementById('root')
 );

@@ -1,0 +1,209 @@
+.Homepage-container
+{
+    background-image: url('../Images/Luxueusemandalabackground.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;color: rgb(241, 228, 180);
+}
+.Homepage-elements-container
+{
+    width: 50vw;
+    height: 50vh;
+    position: absolute;
+    top: 25vh;
+    left: 25vw;
+    position: relative;
+}
+.Homepage-Number-of-question
+{
+}
+.Homepage-Number-of-question h3
+{
+    margin: 0.5rem;
+}
+
+.FontAwesomeIcon-moins
+{
+    display: block;
+    font-size: 2rem;
+    margin-left: 0.5vw;
+    margin-right: 0.5vw;
+    color: rgb(241, 228, 180);
+
+}
+.FontAwesomeIcon-plus
+{
+    display: block;
+    font-size: 2rem;
+    margin-left: 0.5vw;
+    margin-right: 0.5vw;
+    color: rgb(241, 228, 180);
+
+}
+.Homepage-Number-of-question-plus-mine
+{
+    margin: 0.5rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+}
+.Homepage-Number-of-question-plus-mine p
+{
+    font-size: 1.5rem;
+    border-radius: 10px;
+    border: 1px solid rgb(241, 228, 180);
+    background-color: transparent;
+    width: 4vw;
+    text-align: center;
+}
+.FontAwesomeIconc:hover
+{
+    cursor: pointer;
+    color: white;
+}
+.Homepage-type
+{
+    
+    position:absolute;
+    top:20vh;
+    left: 20vw;
+}
+.Homepage-type p:hover
+{
+    cursor: pointer;
+    color: rgb(241, 228, 180);
+    background-color: black;
+}
+
+.Homepage-type p
+{
+    background-color: rgb(241, 228, 180);
+    color: black;
+    padding: 1vw;
+    border-radius: 1vw;
+    margin-right: 1vw;
+    margin-left: 0.5vw;
+
+}
+.Homepage-Difficulty-img
+{
+    width: 5vw;
+    margin: 1rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+
+}
+.Homepage-difficulty
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    position: absolute;
+    top: 35vh;
+    left: 15vw;
+}
+
+
+.Homepage-GO
+{
+    
+    position: absolute;
+    top: 30vh;
+    left: 45vw;
+}
+.triangle-code-haut{
+    display : inline-block;
+    height : 0;
+    width : 0;
+    border-right : 5vw solid transparent;
+    border-bottom : 2.5vw solid rgb(241, 228, 180);
+    border-left : 5vw solid transparent;
+    margin: 0;
+    padding: 0;
+}
+.triangle-code-bas{
+    display : inline-block;
+    height : 0;
+    width : 0;
+    border-right : 5vw solid transparent;
+    border-top : 2.5vw solid rgb(241, 228, 180);
+    border-left : 5vw solid transparent;
+}
+.carré-code
+{
+    width: 10vw;
+    height: 5vw;
+    background-color: rgb(241, 228, 180);
+}
+.Homepage-formg-go
+{
+    position :relative;
+}
+.Homepage-h2-Go
+{
+    position: absolute;
+    top:3.5vw;
+    left: 2.5vw;
+    font-size: 3vw;
+    color:black
+}
+
+.Homepage-flex-row
+{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+}
+.content-row-spaced
+{
+
+    justify-content: space-between;
+}
+.Homepage-difficulty img:hover
+{
+    cursor: pointer;  
+    transform: scale(1.15);
+    transition: 450ms;
+}
+.img-not-colored
+{
+    width: 4vw;
+    margin: 1rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    cursor: pointer; -webkit-filter: grayscale(100%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
+    filter: grayscale(100%); 
+}
+.Homepage-GO:hover
+{
+    cursor: pointer;
+    
+}
+.Homepage-GO:hover .Homepage-h2-Go
+{
+    color: rgb(241, 228, 180);
+    
+}
+.Homepage-GO:hover .triangle-code-haut
+{
+    border-bottom : 2.5vw solid black;
+}
+.Homepage-GO:hover .triangle-code-bas
+{
+    border-top : 2.5vw solid black;
+}
+.Homepage-GO:hover .carré-code
+{
+ background-color: black;   
+}
+
+
+.Type-green
+{
+    background-color: greenyellow!important;
+    color: black;
+}
